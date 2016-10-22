@@ -61,7 +61,7 @@
   .main-header .icon-top {
     display: inline-block;
     padding-top: 4em;
-    background-image: url("../img/arrow-down-white.svg");
+    color: white;
     width: 115px;
     margin-top: 14em;
     background-size: cover;

@@ -125,14 +125,13 @@ $background-contact: #2C3E50;
 	.icon-top{
 	display: inline-block;
 	padding-top: 4em;
-	background-image: url("../img/arrow-down-white.svg");
+	color: white;
 	width: 115px;
 	margin-top: 14em;
 	background-size: cover;
 	background-repeat: no-repeat;
 	animation: bounce 2s infinite;
 	transition: transform;
-
 }
 
 }
