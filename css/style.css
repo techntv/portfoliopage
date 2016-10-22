@@ -10,6 +10,8 @@
 .navbar .nav-item {
   text-align: center; }
   .navbar .nav-item .nav-link {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1.5em;
     padding: 5px 20px; }
     .navbar .nav-item .nav-link:active {
       color: #2C3E50; }
