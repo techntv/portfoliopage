@@ -16,15 +16,13 @@
     color: white;
     padding: 5px 20px;
     margin-top: 15px; }
-    .navbar .nav-item .nav-link:active {
-      color: #2C3E50; }
-    .navbar .nav-item .nav-link:hover {
-      font-weight: bold;
-      background-color: #fff;
-      color: #2C3E50;
-      border-radius: 3px; }
-.navbar .fa {
-  color: white; }
+  .navbar .nav-item .fa {
+    color: white; }
+  .navbar .nav-item .active, .navbar .nav-item .nav-link:hover {
+    font-weight: bold;
+    background-color: #fff;
+    color: #2C3E50;
+    border-radius: 3px; }
 
 .affix {
   background-color: rgba(0, 0, 0, 0.5);

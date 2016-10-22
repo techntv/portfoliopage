@@ -24,65 +24,62 @@ $background-contact: #2C3E50;
 
 .navbar{
 
-	.navbar-default{
-		background-color: transparent;
-		color: white;
+			.navbar-default{
+				background-color: transparent;
+				color: white;
+				}
+
+
+			.navbar-brand{
+				float: none;
+				font-family: 'Pacifico', cursive;
+				color: white;
+				@media (min-width: 768px){
+					font-size: 2em;
+				}
+			} // end nav-brand
+
+
+			.nav-item{
+			text-align: center;
+
+
+
+					.nav-link{
+						font-family: 'Fjalla One', sans-serif;
+						font-size: 1em;
+						color: white;
+						padding: 5px 20px;
+						margin-top: 15px;
+
+						&:hover{
+							@extend .active;
+						}
+					}
+					.fa{
+						color: white;
+					}
+
+					.active{
+						font-weight: bold;
+						background-color: #fff;
+						color: $background-contact;
+						border-radius: 3px;
+					}
 		}
 
+} // end navbar
 
-	.navbar-brand{
-		float: none;
-		font-family: 'Pacifico', cursive;
-		color: white;
-
-
-		@media (min-width: 768px){
-			font-size: 2em;
-		}
-
-	}
-	.nav-item{
-	text-align: center;
-
-	.nav-link{
-		font-family: 'Fjalla One', sans-serif;
-		font-size: 1em;
-		color: white;
-		padding: 5px 20px;
-		margin-top: 15px;
-		&:active{
-			color: $background-contact;
-		}
-
-
-		&:hover{
-			font-weight: bold;
-			background-color: #fff;
-			color: $background-contact;
-			border-radius: 3px;
-			}
-		}
-	}
-
-	.fa{
-		color: white;
-	}
-
-
-
-}
-
-
-.affix{
-			background-color: rgba(0,0,0, 0.5);
-			border-bottom: solid 2px orange;
-			> .nav-item > a{
-				color: blue;
-			}
-			> navbar-brand {
-				color: blue;
-			}
-		}
+		.affix{
+					background-color: rgba(0,0,0, 0.5);
+					border-bottom: solid 2px orange;
+					> .nav-item > a{
+						color: blue;
+					}
+					> navbar-brand {
+						color: blue;
+					}
+				}
 
 
 .main-header{
