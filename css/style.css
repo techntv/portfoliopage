@@ -3,7 +3,8 @@
   color: white; }
 .navbar .navbar-brand {
   float: none;
-  font-family: 'Pacifico', cursive; }
+  font-family: 'Pacifico', cursive;
+  color: white; }
   @media (min-width: 768px) {
     .navbar .navbar-brand {
       font-size: 2em; } }
@@ -12,6 +13,7 @@
   .navbar .nav-item .nav-link {
     font-family: 'Fjalla One', sans-serif;
     font-size: 1.5em;
+    color: white;
     padding: 5px 20px; }
     .navbar .nav-item .nav-link:active {
       color: #2C3E50; }
@@ -22,19 +24,20 @@
       border-radius: 7px; }
 
 .affix {
-  background-color: white;
-  border-color: rgba(34, 34, 34, 0.05); }
+  background-color: rgba(0, 0, 0, 0.5);
+  border-bottom: solid 2px orange; }
   .affix > .nav-item > a {
     color: blue; }
   .affix > navbar-brand {
     color: blue; }
 
 .main-header {
-  background-image: url("../img/bg.jpg");
+  background-image: url("../img/bg_top.jpg");
   background-size: cover;
   width: 100%;
   height: 960px;
-  background-position: center; }
+  background-position: center;
+  background-attachment: fixed; }
   .main-header .top-content {
     text-align: center;
     padding-top: 300px;
