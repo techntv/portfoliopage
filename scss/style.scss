@@ -19,9 +19,7 @@ $background-contact: #2C3E50;
 
 @mixin contact_style(){
 	color: #fff;
-	@media (min-width: 768px){
-		color: #000;
-	}
+
 }
 
 .navbar{
@@ -188,9 +186,11 @@ $background-contact: #2C3E50;
 
 }
 .contactme{
-		background-image: url("../img/Elegant_Background-3.jpg");
+		background-image: url("../img/email_bg.jpg");
 		background-size: cover;
+		background-attachment: fixed;
 		width: 100%;
+		color: white;
 	@include align();
 
 	h2{
@@ -203,14 +203,13 @@ $background-contact: #2C3E50;
 	h4{
 		margin-bottom: 40px;
 		@include contact_style();
+		
 	}
-	.sendemail{
-		color: #000;
-	}
+
 	label{
-		color: #000;
 		font-size: 25px;
 	}
+
 	input[type='button']{
 		font-size: 25px;
 	}
