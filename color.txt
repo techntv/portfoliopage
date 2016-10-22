@@ -1,0 +1,4 @@
+$my-portfolio: #225378;
+$contact: #1695A3;
+$footer: #193441;
+$header:#004358;

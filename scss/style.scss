@@ -1,0 +1,231 @@
+
+$background-portfolio: #225378;
+$background-contact: #2C3E50;
+@mixin align(){
+	padding: 50px 40px;
+	h2{margin-bottom: 80px;}
+}
+
+@mixin h2_style(){
+	font-size: 3.5em;
+		@media (min-width: 768px){
+			font-size: 4.5em;
+		}
+
+		@media (min-width: 1024px){
+			font-size: 6.5em;
+		}
+}
+
+@mixin contact_style(){
+	color: #fff;
+	@media (min-width: 768px){
+		color: #000;
+	}
+}
+
+.navbar{
+
+	.navbar-default{
+		background-color: transparent;
+		color: white;
+		}
+
+
+	.navbar-brand{
+		float: none;
+
+		@media (min-width: 768px){
+			font-size: 1em;
+		}
+		&:hover{
+			color: #fff;
+			font-size: 3em;
+		}
+
+	}
+	.nav-item{
+	text-align: center;
+
+	.nav-link{
+
+		padding: 5px 20px;
+
+		&:active{
+			color: $background-contact;
+		}
+
+
+		&:hover{
+			font-weight: bold;
+			background-color: #fff;
+			color: $background-contact;
+			border-radius: 7px;
+			}
+		}
+	}
+
+
+
+
+}
+
+
+.affix{
+
+			background-color: white;
+			border-color: rgba(34, 34, 34, 0.05);
+
+			> .nav-item > a{
+				color: blue;
+			}
+
+			> navbar-brand {
+				color: blue;
+			}
+
+
+		}
+
+
+.main-header{
+		background-image: url("../img/bg.jpg");
+		background-size: cover;
+		width: 100%;
+		height: 960px;
+		background-position: center;
+
+	.top-content{
+		text-align: center;
+		padding-top: 300px;
+		color: #fff;
+		font-weight: bold;
+		& h1{
+			text-transform: uppercase;
+			font-size: 4em;
+			@media (min-width: 768px){
+				font-size: 5em;
+			}
+
+			@media (min-width: 1024px){
+				font-size: 7em;
+			}
+		}
+
+		& p{
+			font-size: 2em;
+		}
+
+	}
+
+	.icon-top{
+	display: inline-block;
+	padding-top: 4em;
+	background-image: url("../img/arrow-down-white.svg");
+	width: 115px;
+	margin-top: 14em;
+	background-size: cover;
+	background-repeat: no-repeat;
+	animation: bounce 2s infinite;
+	transition: transform;
+
+}
+
+}
+@keyframes bounce{
+	0%, 20%,50%,80%,100%{
+		transform: translateY(0);
+	}
+
+	40%{
+		transform: translateY(-30px);
+	}
+
+	60%{
+		transform: translateY(-15px);
+	}
+}
+.main-skill{
+	.myskill{
+		@include align();
+	}
+	.mypassion{
+		@include align();
+	}
+	h4{
+		margin-bottom: 20px;
+	}
+}
+.myportfolio{
+	background-color: $background-portfolio;
+	@include align();
+
+	h2{
+		color: #fff;
+		@include h2_style();
+	}
+
+	img{
+		width: 100%;
+		height: 185px;
+		margin-top: 30px;
+		@media (min-width: 544px){
+			height: 250px;
+		}
+	}
+
+
+}
+.contactme{
+		background-image: url("../img/Elegant_Background-3.jpg");
+		background-size: cover;
+		width: 100%;
+	@include align();
+
+	h2{
+		@include h2_style();
+	}
+	textarea{
+		height: 200px;
+	}
+	.contactform,
+	h4{
+		margin-bottom: 40px;
+		@include contact_style();
+	}
+	.sendemail{
+		color: #000;
+	}
+	label{
+		color: #000;
+		font-size: 25px;
+	}
+	input[type='button']{
+		font-size: 25px;
+	}
+	p{
+		@include contact_style();
+	}
+}
+.main-footer{
+	@include align();
+
+	font-weight: bold;
+	font-size: 20px;
+	.copyright{
+		margin-bottom: 40px;
+		@media (min-width: 768px){
+			margin-bottom: 0px;
+		}
+	}
+
+
+	.unl{
+		margin-right: 5px;
+		padding: 10px 20px;
+		border-bottom: 5px solid #E74C3C;
+		&:hover{
+			border: 5px solid #E74C3C;
+		}
+	}
+}
