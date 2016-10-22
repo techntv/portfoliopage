@@ -12,9 +12,10 @@
   text-align: center; }
   .navbar .nav-item .nav-link {
     font-family: 'Fjalla One', sans-serif;
-    font-size: 1.5em;
+    font-size: 1em;
     color: white;
-    padding: 5px 20px; }
+    padding: 5px 20px;
+    margin-top: 15px; }
     .navbar .nav-item .nav-link:active {
       color: #2C3E50; }
     .navbar .nav-item .nav-link:hover {
@@ -22,6 +23,8 @@
       background-color: #fff;
       color: #2C3E50;
       border-radius: 3px; }
+.navbar .fa {
+  color: white; }
 
 .affix {
   background-color: rgba(0, 0, 0, 0.5);
@@ -45,11 +48,11 @@
     font-weight: bold; }
     .main-header .top-content h1 {
       text-transform: uppercase;
-      font-size: 2em;
+      font-size: 3em;
       font-family: 'Fjalla One', sans-serif; }
       @media (min-width: 768px) {
         .main-header .top-content h1 {
-          font-size: 3em; } }
+          font-size: 4em; } }
       @media (min-width: 1024px) {
         .main-header .top-content h1 {
           font-size: 5em; } }
