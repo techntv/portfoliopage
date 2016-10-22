@@ -94,8 +94,9 @@
   margin-bottom: 20px; }
 
 .myportfolio {
-  background-color: #225378;
-  padding: 100px 40px; }
+  background-color: #2980B9;
+  padding: 100px 40px;
+  color: white; }
   .myportfolio h2 {
     margin-bottom: 80px; }
   .myportfolio h2 {
@@ -109,11 +110,17 @@
         font-size: 6.5em; } }
   .myportfolio img {
     width: 100%;
-    height: 185px;
-    margin-top: 30px; }
-    @media (min-width: 544px) {
-      .myportfolio img {
-        height: 250px; } }
+    height: 100%; }
+  .myportfolio .project {
+    margin: 100px 0; }
+    .myportfolio .project h3 {
+      margin-top: 40px; }
+    .myportfolio .project span {
+      display: inline-block;
+      border: solid 3px #B9121B;
+      padding: 8px 15px;
+      margin-right: 5px;
+      font-size: 25px; }
 
 .contactme {
   background-image: url("../img/email_bg.jpg");
