@@ -34,14 +34,16 @@ $background-contact: #2C3E50;
 
 	.navbar-brand{
 		float: none;
+		font-family: 'Pacifico', cursive;
+
 
 		@media (min-width: 768px){
-			font-size: 1em;
+			font-size: 2em;
 		}
-		&:hover{
-			color: #fff;
-			font-size: 3em;
-		}
+		// &:hover{
+		// 	color: #fff;
+		// 	font-size: 3em;
+		// }
 
 	}
 	.nav-item{

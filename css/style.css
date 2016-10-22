@@ -2,13 +2,11 @@
   background-color: transparent;
   color: white; }
 .navbar .navbar-brand {
-  float: none; }
+  float: none;
+  font-family: 'Pacifico', cursive; }
   @media (min-width: 768px) {
     .navbar .navbar-brand {
-      font-size: 1em; } }
-  .navbar .navbar-brand:hover {
-    color: #fff;
-    font-size: 3em; }
+      font-size: 2em; } }
 .navbar .nav-item {
   text-align: center; }
   .navbar .nav-item .nav-link {
