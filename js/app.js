@@ -15,17 +15,17 @@ $(document).ready(function(){
       $('html, body').animate({
         scrollTop: $(hash).offset().top
       }, 2500, function(){
-   
+
         // Add hash (#) to URL when done scrolling (default click behavior)
         window.location.hash = hash;
       });
     } // End if
   }); // End a click
 
-  
+
   $('.main-header h1,.main-header p').fadeOut(4000).fadeIn(3000);
-  
-  
+
+
     $(window).scroll(function(){
         if($(document).scrollTop() > 10){
            $('.navbar').addClass('affix', function(){
@@ -37,8 +37,8 @@ $(document).ready(function(){
             $('affix').fadeOut(2000);
           });
          }
-     }) // End window scroll
-  
-  
+     }); // End window scroll
+
+
 
 });
