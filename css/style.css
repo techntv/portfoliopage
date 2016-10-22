@@ -77,11 +77,11 @@
   60% {
     transform: translateY(-15px); } }
 .main-skill .myskill {
-  padding: 50px 40px; }
+  padding: 100px 40px; }
   .main-skill .myskill h2 {
     margin-bottom: 80px; }
 .main-skill .mypassion {
-  padding: 50px 40px; }
+  padding: 100px 40px; }
   .main-skill .mypassion h2 {
     margin-bottom: 80px; }
   .main-skill .mypassion img {
@@ -95,7 +95,7 @@
 
 .myportfolio {
   background-color: #225378;
-  padding: 50px 40px; }
+  padding: 100px 40px; }
   .myportfolio h2 {
     margin-bottom: 80px; }
   .myportfolio h2 {
@@ -119,7 +119,7 @@
   background-image: url("../img/Elegant_Background-3.jpg");
   background-size: cover;
   width: 100%;
-  padding: 50px 40px; }
+  padding: 100px 40px; }
   .contactme h2 {
     margin-bottom: 80px; }
   .contactme h2 {
@@ -154,7 +154,7 @@
         color: #000; } }
 
 .main-footer {
-  padding: 50px 40px;
+  padding: 100px 40px;
   font-weight: bold;
   font-size: 20px; }
   .main-footer h2 {
