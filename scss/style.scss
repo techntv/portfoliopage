@@ -154,6 +154,14 @@ $background-contact: #2C3E50;
 	}
 	.mypassion{
 		@include align();
+
+		img{
+			width: 250px;
+			height: 250px;
+			border-radius: 100%;
+			border: solid 5px orange;
+			margin-bottom: 40px;
+		}
 	}
 	h4{
 		margin-bottom: 20px;

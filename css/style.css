@@ -84,6 +84,12 @@
   padding: 50px 40px; }
   .main-skill .mypassion h2 {
     margin-bottom: 80px; }
+  .main-skill .mypassion img {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    border: solid 5px orange;
+    margin-bottom: 40px; }
 .main-skill h4 {
   margin-bottom: 20px; }
 
