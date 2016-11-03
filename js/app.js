@@ -5,15 +5,15 @@ $(document).ready(function(){
       var hash = this.hash;
 
       $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 2500, function(){      
+        scrollTop: $(hash).offset().top - 52
+      }, 2500, function(){
         window.location.hash = hash;
       });
     } // End if
   }); // End a click
 
 
-  $('.main-header h1,.main-header p').fadeOut(4000).fadeIn(3000);
+  //$('.main-header h1,.main-header p').fadeOut(4000).fadeIn(3000);
 
 
     $(window).scroll(function(){
@@ -28,6 +28,13 @@ $(document).ready(function(){
           });
          }
      }); // End window scroll
+
+    $(window).on('load resize', function(){
+      $('.fill-screen').css('height', window.innerHeight);
+    }); // end full screen images
+
+
+
 
 
 });
