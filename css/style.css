@@ -63,18 +63,29 @@
     transform: translateY(-30px); }
   60% {
     transform: translateY(-15px); } }
-.main-skill .mypassion img {
-  width: 250px;
-  height: 250px;
-  border-radius: 100%;
-  border: solid 5px orange;
-  margin-bottom: 40px; }
+.main-skill .myskill {
+  padding: 100px 40px; }
+  .main-skill .myskill h2 {
+    margin-bottom: 80px; }
+.main-skill .mypassion {
+  padding: 100px 40px; }
+  .main-skill .mypassion h2 {
+    margin-bottom: 80px; }
+  .main-skill .mypassion img {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    border: solid 5px orange;
+    margin-bottom: 40px; }
 .main-skill h4 {
   margin-bottom: 20px; }
 
 .myportfolio {
   background-color: #2980B9;
+  padding: 100px 40px;
   color: white; }
+  .myportfolio h2 {
+    margin-bottom: 80px; }
   .myportfolio h2 {
     color: #fff;
     font-size: 3.5em; }
@@ -103,7 +114,10 @@
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
-  color: white; }
+  color: white;
+  padding: 100px 40px; }
+  .contactme h2 {
+    margin-bottom: 80px; }
   .contactme h2 {
     font-size: 3.5em; }
     @media (min-width: 768px) {
@@ -126,8 +140,11 @@
     color: #fff; }
 
 .main-footer {
+  padding: 100px 40px;
   font-weight: bold;
   font-size: 20px; }
+  .main-footer h2 {
+    margin-bottom: 80px; }
   .main-footer .copyright {
     margin-bottom: 40px; }
     @media (min-width: 768px) {

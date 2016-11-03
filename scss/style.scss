@@ -131,10 +131,10 @@ $background-contact: #2C3E50;
 }
 .main-skill{
 	.myskill{
-		//@include align();
+		@include align();
 	}
 	.mypassion{
-		//@include align();
+		@include align();
 
 		img{
 			width: 250px;
@@ -150,7 +150,7 @@ $background-contact: #2C3E50;
 }
 .myportfolio{
 	background-color: $background-portfolio;
-	//@include align();
+	@include align();
 	color: white;
 	h2{
 		color: #fff;
@@ -184,7 +184,7 @@ $background-contact: #2C3E50;
 		background-attachment: fixed;
 		width: 100%;
 		color: white;
-	//@include align();
+	@include align();
 
 	h2{
 		@include h2_style();
@@ -211,7 +211,7 @@ $background-contact: #2C3E50;
 	}
 }
 .main-footer{
-	//@include align();
+	@include align();
 
 	font-weight: bold;
 	font-size: 20px;
