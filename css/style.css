@@ -47,6 +47,13 @@
     margin-right: -50%;
     transform: translate(-50%, -50%);
     text-align: center; }
+    .main-header .fill-screen .top-content h1 {
+      font-size: 3em;
+      color: white; }
+    .main-header .fill-screen .top-content span {
+      color: #E74C3C; }
+    .main-header .fill-screen .top-content p {
+      color: white; }
   .main-header .fill-screen .icon-top {
     position: absolute;
     bottom: 40px;

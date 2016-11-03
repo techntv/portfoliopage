@@ -13,7 +13,7 @@ $(document).ready(function(){
   }); // End a click
 
 
-  //$('.main-header h1,.main-header p').fadeOut(4000).fadeIn(3000);
+
 
 
     $(window).scroll(function(){
@@ -33,8 +33,7 @@ $(document).ready(function(){
       $('.fill-screen').css('height', window.innerHeight);
     }); // end full screen images
 
-
-
+    new WOW().init();
 
 
 });
