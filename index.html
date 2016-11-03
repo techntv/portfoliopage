@@ -14,13 +14,16 @@
     <link href="https://fonts.googleapis.com/css?family=Pacifico|Fjalla+One" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 
+    <!-- Animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
     <!-- Main Style -->
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/themes/smoothness/jquery-ui.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
 
   </head>
-  <body id="home" data-spy="scroll" data-target="#navbaricon">
+  <body id="home" data-spy="scroll" data-target="#navbaricon" data-offset="150">
     <!-- navigation -->
             <nav class="navbar navbar-default pos-f-t">
               <div class="container">
@@ -36,7 +39,7 @@
                         <a class="nav-link" href="#skill">About me</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">My work</a>
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact me</a>
@@ -58,9 +61,9 @@
         <div class="row">
           <div class="fill-screen">
             <div class="top-content">
-                <h1><span>Apps </span>Services</h1>
-                <h1>Awesome <span>Design</span></h1>
-                <p class="lead">Nguyen The Vinh, Front End Developer</p>
+                <h1 class="wow slideInDown" data-wow-duration="5s"><span>Apps </span>Services</h1>
+                <h1 class="wow slideInDown" data-wow-duration="3s">Awesome <span>Website</span></h1>
+                <p class="lead wow slideInDown" data-wow-duration="1s">Nguyen The Vinh, Front End Developer</p>
             </div>
 
               <div class="icon-top">
@@ -82,7 +85,7 @@
     <section class="main-skill" id="skill">
         <div class="container">
           <div class="row p-y-3">
-            <div class="col-md-6 myskill">
+            <div class="col-md-6 myskill wow fadeInLeft" data-wow-duration="3s">
                 <h4 class="display-4">HTML5</h3>
                 <progress class="progress progress-striped progress-info progress-animated" value="65" max="100"></progress>
 
@@ -100,7 +103,7 @@
 
 
             </div>
-            <div class="col-md-6 text-xs-center mypassion">
+            <div class="col-md-6 text-xs-center mypassion wow fadeInRight" data-wow-duration="3s">
                   <img src="img/me.jpg" alt="aboutme" />
                 <h4 class="display-4">I love web</h4>
                 <p class="lead">Hey, I'm Vinh Nguyen. I have a passion with website. Every day, I try new things about technical, design and make website for my friends. So I'm very happy when I could help you improve your website.</p>
@@ -115,7 +118,7 @@
     <section class="myportfolio" id="portfolio">
       <div class="container">
             <h2 class="text-xs-center">Portfolio</h2>
-            <div class="row project">
+            <div class="row project wow fadeInLeft" data-wow-duration="3s">
               <div class="col-md-6">
                 <a href="https://techntv.github.io/calculatorjs" target="_blank">
                   <img src="img/calculator2.png" alt="calculator" />
@@ -132,7 +135,7 @@
               </div>
             </div>
 
-            <div class="row project">
+            <div class="row project wow fadeInRight" data-wow-duration="3s">
               <div class="col-md-6">
                 <a href="https://techntv.github.io/pomodoroclock/" target="_blank">
                   <img src="img/pomodoroclock.png" alt="pomodoroclock" />
@@ -151,7 +154,7 @@
               </div>
             </div>
 
-            <div class="row project">
+            <div class="row project wow fadeInLeft" data-wow-duration="3s">
               <div class="col-md-6">
                 <a href="http://www.sentamnhietdo.com" target="_blank">
                   <img src="img/sentamnhietdo.png" alt="websitesentamnhietdo" />
@@ -169,7 +172,7 @@
               </div>
             </div>
 
-            <div class="row project">
+            <div class="row project wow fadeInRight" data-wow-duration="3s">
               <div class="col-md-6">
                 <a href="https://techntv.github.io/wikipediaviewer" target="_blank">
                   <img src="img/wikipediaviewer.png" alt="wikipediaviewer" />
@@ -193,11 +196,11 @@
     <!-- / my portfolio -->
 
     <!-- contact me -->
-    <section class="contactme" id="contact">
+    <section class="contactme " id="contact">
       <div class="container">
           <h2 class="text-xs-center">Contact Me</h2>
           <div class="row">
-            <div class="col-md-6 contactform">
+            <div class="col-md-6 contactform wow fadeInLeft" data-wow-duration="4s">
             <h4 class="display-4 sendemail">Send Me Message...</h4>
               <form method="post">
                 <div class="form-group">
@@ -221,7 +224,7 @@
               </form>
             </div>
 
-            <div class="col-md-6">
+            <div class="col-md-6 wow fadeInRight" data-wow-duration="4s">
               <h4 class="display-4">Keep in touch.</h4>
               <p class="lead">Wow, you in the end of road. Now, update some awesome tips and tricks weekly through sending me a message. I'm try everyday to get the best for you, friends. Thanks for coming.</p>
             </div>
@@ -240,10 +243,21 @@
                 </div>
 
                 <div class="col-md-6 text-xs-center text-md-right">
-                  <i class="fa fa-facebook unl" aria-hidden="true"></i>
-                  <i class="fa fa-twitter unl" aria-hidden="true"></i>
-                  <i class="fa fa-github unl" aria-hidden="true"></i>
-                  <i class="fa fa-linkedin unl" aria-hidden="true"></i>
+                  <a href="https://www.facebook.com/profile.php?id=100010934790963" target="_blank">
+                      <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+                  </a>
+                  <a href="https://twitter.com/techntvz" target="_blank">
+                        <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+                  </a>
+
+                  <a href="https://github.com/techntv" target="_blank">
+                    <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+                  </a>
+
+                  <a href="https://vn.linkedin.com/in/nguyen-the-vinh-07629110b" target="_blank">
+                      <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+                  </a>
+
                 </div>
               </div>
         </div>
@@ -255,6 +269,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
   </body>
 </html>
